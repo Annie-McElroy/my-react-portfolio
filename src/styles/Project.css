@@ -1,0 +1,27 @@
+.ProjectCard {
+    position: relative;
+    display: inline-block;
+}
+
+.ProjectCard:hover .ProjectCard-title {
+    visibility: visible;
+    opacity: 0.5;
+}
+
+.ProjectCard img {
+    height: 300px;
+    width: 300px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: block;
+}
+
+.ProjectCard-title {
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    /* font-weight: bold; */
+}
