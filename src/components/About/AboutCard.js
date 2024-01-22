@@ -2,7 +2,7 @@
 
 
 
-function AboutCard() {
+const AboutCard = () => {
     return (
         <main>
             <section>
