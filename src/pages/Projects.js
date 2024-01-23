@@ -11,7 +11,8 @@ function Projects() {
             description: '',
             role: 'Backend',
             tools: ['React', 'Material UI'],
-            imgSrc: `${placeholder}`
+            imgSrc: `${placeholder}`,
+            link: ``
         },
         {
             id: 2,
@@ -19,8 +20,9 @@ function Projects() {
             description: '',
             role: 'Frontend JavaScript',
             tools: ['HTML', 'CSS', 'JavaScript'],
-            imgSrc: ``
-        }
+            imgSrc: ``,
+            link: ``
+        },
     ]
 
     // const projectList = Array.from( projects.name );

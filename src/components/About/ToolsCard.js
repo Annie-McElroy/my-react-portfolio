@@ -3,22 +3,18 @@
 // Communication: Slack and Discord
 // Coding Tools: VSCode, Git, Insomnia, Postman, Heroku
 
+import '../../styles/About.css';
 
-const ToolsCard = () => {
+
+const ToolsCard = (props) => {
+
     return (
-        <section>
-            <h2>My Tools</h2>
-            <ul className='tool-card'>
-                <li>
-                    OS Systems: MacOs and Windows
-                </li>
-                <li>
-                    Communication: Slack and Discord
-                </li>
-                <li>
-                    Coding: VSCode, Git, Insomnia, Postman, Heroku
-                </li>
-            </ul>
+        <section className='ToolsCard'>
+            <div className='ToolsCard-box'>
+                <img src={props.imgSrc} alt={props.tools} />
+            </div>
         </section>
     )
 }
+
+export default ToolsCard;

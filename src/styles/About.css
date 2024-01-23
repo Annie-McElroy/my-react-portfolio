@@ -1,0 +1,48 @@
+.ToolsCard-Container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+    
+}
+
+.ToolsCard-box {
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap; */
+}
+
+.ToolsCard-box img {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: block;
+    border: black solid;
+}
+
+.StudyLearn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.StudySkills {
+    
+}
+
+.SkillsCard {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.SkillCard-box img {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: block;
+    border: black solid;
+}

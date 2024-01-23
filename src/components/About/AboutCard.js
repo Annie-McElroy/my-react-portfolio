@@ -11,6 +11,7 @@ const AboutCard = () => {
                 </header>
                 <p>
                     My name is Annie McElroy. I'm a growing individual that still has much to learn and loves to learn and teach.
+                </p>
 
                     A few important facts about me:
                     <ul>
@@ -25,6 +26,7 @@ const AboutCard = () => {
                         </li>
                     </ul>
 
+                    <p>
                     I studied Professional Writing at Baylor University.
 
                     I began my career as a Data Analyst and became a Project Team Lead and Trainer. Spent 7+ years improving my critical thinking, problem solving, leadership, and teaching skills.
