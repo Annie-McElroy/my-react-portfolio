@@ -1,19 +1,20 @@
-.ProjectCard {
+.ProjectCard-figure {
     position: relative;
     display: inline-block;
 }
 
-.ProjectCard:hover .ProjectCard-title {
+.ProjectCard-figure:hover .ProjectCard-title {
     visibility: visible;
     opacity: 0.5;
 }
 
-.ProjectCard img {
+.ProjectCard-figure img {
     height: 300px;
     width: 300px;
     background-color: #bbb;
     border-radius: 50%;
     display: block;
+    border: black solid;
 }
 
 .ProjectCard-title {
@@ -24,4 +25,13 @@
     transform: translate(-50%, -50%);
     font-size: 20px;
     /* font-weight: bold; */
+}
+
+.ProjectCard {
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.ProjectCard-article {
+    border: black solid;
 }
