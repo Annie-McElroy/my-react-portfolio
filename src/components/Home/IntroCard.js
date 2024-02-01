@@ -3,7 +3,7 @@
 function IntroCard() {
 
     return (
-        <main>
+        <main className='IntroCard'>
             <section>
                 <header>
                     <h2>My name is Annie McElroy and I'm a newly developed web developer!</h2>

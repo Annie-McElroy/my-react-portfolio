@@ -1,0 +1,17 @@
+.PicContainer img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.MyPic {
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.ClairePic {
+  position: absolute;
+  left: 150px;
+  top: 150px;
+}
