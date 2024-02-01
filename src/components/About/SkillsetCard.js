@@ -8,7 +8,8 @@ import SkillCard from './SkillCard';
 import placeholder from '../../images/placeholder.jpg';
 
 
-const SkillsetCard = (props) => {
+const SkillsetCard = () => {
+
     // [ 'React', 'JavaScript', 'MongoDB/Mongoose', 'mySQL/Sequelize', 'Apollo GraphQL', 'Node.js', 'Next.js', 'Express.js' ]
     const skillSet = [
         {

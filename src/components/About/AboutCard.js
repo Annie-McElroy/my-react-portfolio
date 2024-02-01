@@ -4,7 +4,7 @@
 
 const AboutCard = () => {
     return (
-        <main>
+        <main className='AboutCard'>
             <section>
                 <header>
                     <h2>About Me</h2>

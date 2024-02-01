@@ -1,9 +1,8 @@
 import ProjectCard from "../components/Projects/ProjectCards";
 import placeholder from '../images/placeholder.jpg';
-import { useState } from "react";
-
 
 function Projects() {
+
     const projects = [
         {
             id: 1,
@@ -25,10 +24,6 @@ function Projects() {
         },
     ]
 
-    // const projectList = Array.from( projects.name );
-
-    // console.log(projectList)
-
     return (
         <div>
             <p>Project Page</p>
@@ -39,7 +34,7 @@ function Projects() {
 
             </section>
         </div>
-    )
+    );
 }
 
 export default Projects;
