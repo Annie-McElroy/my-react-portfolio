@@ -42,5 +42,6 @@
 header li {
   list-style: none;
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 50px;
+  font-size: 25px;
 }
