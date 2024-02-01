@@ -1,3 +1,9 @@
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .PicContainer img {
   width: 200px;
   height: 200px;
@@ -14,4 +20,27 @@
   position: absolute;
   left: 150px;
   top: 150px;
+}
+
+.NavImage {
+  position: relative;
+  left: 100px;
+  height: 300px;
+  width: 930px;
+}
+
+.NavBar {
+  display: flex;
+  align-items: center;
+}
+
+.NavBar-list {
+  list-style: none;
+  display: flex;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
 }
