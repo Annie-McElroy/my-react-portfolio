@@ -11,7 +11,7 @@ import Foot from './components/Footer';
 function App() {
   return (
     <Router>
-      <div>
+      <div className='App'>
         <Nav />
         <div>
           <Routes>
