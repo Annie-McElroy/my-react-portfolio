@@ -11,13 +11,9 @@ import '../styles/Nav.css';
 function Nav() {
     return (
         <header className="Header">
-            <h1>Annie McElroy</h1>
             <nav className="Nav">
-                <div className="PicContainer">
-                    <img src={my_picture} alt="Annie McElroy" className="MyPic" />
-                    <img src={claire_tongue} alt="Claire, black and tan dachshund dog" className="ClairePic" />
-                </div>
-                {/* <img src={navbar_image} alt="navbar" className="NavImage"/> */}
+                <div className="Head">
+                    <h1>Annie McElroy</h1>
                 <ul className="NavBar-list">
                     <li>
                         <Link to="/">
@@ -40,6 +36,12 @@ function Nav() {
                         </Link>
                     </li>
                 </ul>
+                </div>
+                    <div className="PicContainer">
+                        <img src={my_picture} alt="Annie McElroy" className="MyPic" />
+                        <img src={claire_tongue} alt="Claire, black and tan dachshund dog" className="ClairePic" />
+                    </div>
+                {/* <img src={navbar_image} alt="navbar" className="NavImage"/> */}
             </nav>
         </header>
     );

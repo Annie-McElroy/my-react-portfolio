@@ -1,7 +1,38 @@
+/* Colors:
+  Peach: #FFBE86
+  Puce (Purpleish): #C08497
+  Teal: #087E8B
+  Aquamarine: #78FFD6
+  Cerise (Redish): #CF4D6F
+*/
+
 .Nav {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: flex-start; */
+}
+
+.Head {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: #087E8B;
+}
+
+.Head h1 {
+  color: #78FFD6;
+  /* background-color: #087E8B; */
+  font-size: 30px;
+  padding: 7px;
+  /* padding-right: 200px; */
+  border-radius: 10px;
+  margin-left: 5px;
+  
+}
+
+.PicContainer {
+  display: block;
 }
 
 .PicContainer img {
@@ -43,5 +74,26 @@ header li {
   list-style: none;
   display: inline-block;
   padding: 0 50px;
-  font-size: 25px;
+  margin: 5px;
+  font-size: 20px;
+  color: #78FFD6;
+  background: #FFBE86;
+  border-radius: 30px;
+  border-style: solid;
+}
+
+header li a {
+  color: #087E8B;
+}
+
+header li a:hover {
+  color: #4ea389;
+}
+
+header li a:visited {
+  /* color:#4ea389 */
+}
+
+header li a:active {
+  color: #4ea389;
 }
