@@ -6,13 +6,10 @@
   Cerise (Redish): #CF4D6F
 */
 
-.Nav {
+.Header {
   /* display: flex; */
   /* justify-content: space-between; */
   /* align-items: flex-start; */
-}
-
-.Head {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -20,19 +17,32 @@
   background-color: #087E8B;
 }
 
-.Head h1 {
+.Nav {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #087E8B; */
+}
+
+.Nav h1 {
   color: #78FFD6;
   /* background-color: #087E8B; */
   font-size: 30px;
   padding: 7px;
   /* padding-right: 200px; */
   border-radius: 10px;
+  /* margin-left: 5px;
   margin-left: 5px;
-  
+  margin-bottom: 15px;
+  margin-top: 0px; */
 }
 
 .PicContainer {
+  /* display: block; */
+  /* position: absolute;
   display: block;
+  top: 52px; */
 }
 
 .PicContainer img {
@@ -50,7 +60,8 @@
 .ClairePic {
   position: absolute;
   left: 150px;
-  top: 150px;
+  /* top: 150px; */
+  top: 78px;
 }
 
 .NavImage {
