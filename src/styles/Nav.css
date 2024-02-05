@@ -18,11 +18,8 @@
 }
 
 .Nav {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #087E8B; */
+  display: flex;
+  flex-direction: column;
 }
 
 .Nav h1 {
@@ -78,33 +75,37 @@
 
 .NavBar-list {
   list-style: none;
-  display: flex;
+  padding-left: 0px;
 }
 
-header li {
+.Nav li {
   list-style: none;
   display: inline-block;
   padding: 0 50px;
   margin: 5px;
   font-size: 20px;
   color: #78FFD6;
-  background: #FFBE86;
+  background: #ffbe86;
   border-radius: 30px;
   border-style: solid;
 }
 
-header li a {
+.Nav li a {
   color: #087E8B;
 }
 
-header li a:hover {
+.Nav li a:hover {
   color: #4ea389;
 }
 
-header li a:visited {
+.Nav li:hover {
+  background-color: #f8a964;
+}
+
+.Nav li a:visited {
   /* color:#4ea389 */
 }
 
-header li a:active {
+.Nav li a:active {
   color: #4ea389;
 }

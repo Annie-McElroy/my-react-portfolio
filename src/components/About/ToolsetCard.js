@@ -1,8 +1,7 @@
 import ToolsCard from "./ToolsCard";
-import placeholder from '../../images/placeholder.jpg';
+import placeholder from "../../images/placeholder.jpg";
 
 const ToolsetCard = () => {
-
   const tools = [
     {
       tool: "MacOS",
@@ -52,6 +51,6 @@ const ToolsetCard = () => {
       </div>
     </section>
   );
-}
+};
 
 export default ToolsetCard;

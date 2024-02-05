@@ -1,5 +1,17 @@
-.ImageBorder {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.Home {
+  padding: 1em 10em 1em;
+}
+
+.IntroCard {
+  display: flex;
+  border: solid;
+  background-color: #f8a964;
+}
+
+.IntroCard h2 {
+  text-align: center;
+}
+
+.IntroCard p {
+
 }
