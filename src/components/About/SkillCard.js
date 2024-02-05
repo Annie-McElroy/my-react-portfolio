@@ -4,7 +4,7 @@ const SkillCard = (props) => {
   return (
     <section className="SkillCard">
       <div className="SkillCard-box">
-        <img src={props.imgSrc} alt={props.tools} />
+        <img src={props.imgSrc} alt={props.skill} />
       </div>
     </section>
   );

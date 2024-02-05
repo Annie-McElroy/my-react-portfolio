@@ -2,9 +2,9 @@
 // should have image as navbar
 // will have four links: Home, About, Projects, and Resume
 // Need to import Link from react-router-dom to properly link to the other pages
+
 import { Link } from "react-router-dom";
-import claire_tongue from "../images/claire-tongue-edit1.jpg";
-import my_picture from "../images/Annie_B1_Edit2.jpg";
+import { My_Picture, Claire_Tongue } from "../images";
 // import navbar_image from '../images/nav-bar-longer.png';
 // import test2 from '../images/test2.png'
 import "../styles/Nav.css";
@@ -14,11 +14,11 @@ function Nav() {
     <header className="Header">
       <div className="PicContainer">
         <img
-          src={my_picture}
+          src={My_Picture}
           alt="Annie McElroy"
           className="MyPic" />
         <img
-          src={claire_tongue}
+          src={Claire_Tongue}
           alt="Claire, black and tan dachshund dog"
           className="ClairePic"
         />

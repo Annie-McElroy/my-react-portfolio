@@ -6,59 +6,71 @@
 import "../../styles/About.css";
 import SkillCard from "./SkillCard";
 import placeholder from "../../images/placeholder.jpg";
+import {
+  A_GQL_Logo,
+  JS_Logo,
+  Ex_Logo,
+  MonDB_Logo,
+  NodeJS_Logo,
+  React_Logo,
+  SQL_Logo,
+  Train_Dev_Logo,
+  CSS_Logo,
+  Python_Logo,
+} from "../../images/index";
 
 const SkillsetCard = () => {
-  // [ 'React', 'JavaScript', 'MongoDB/Mongoose', 'mySQL/Sequelize', 'Apollo GraphQL', 'Node.js', 'Next.js', 'Express.js' ]
+  // [ 'React', 'JavaScript', 'MongoDB/Mongoose', 'mySQL/Sequelize', 'Apollo GraphQL', 'Node.js', 'Express.js' ]
   const skillSet = [
     {
       skill: "React",
-      imgSrc: `${placeholder}`,
+      imgSrc: `${React_Logo}`,
     },
     {
       skill: "JavaScript",
-      imgSrc: `${placeholder}`,
+      imgSrc: `${JS_Logo}`,
     },
     {
       skill: "MongoDB/Mongoose",
-      imgSrc: `${placeholder}`,
+      imgSrc: `${MonDB_Logo}`,
     },
     {
       skill: "mySQL/Sequelize",
-      imgSrc: `${placeholder}`,
+      imgSrc: `${SQL_Logo}`,
     },
     {
       skill: "Apollo GraphQL",
-      imgSrc: `${placeholder}`,
+      imgSrc: `${A_GQL_Logo}`,
     },
     {
       skill: "Node.js",
-      imgSrc: `${placeholder}`,
+      imgSrc: `${NodeJS_Logo}`,
     },
     {
-      skill: "Next.js",
-      imgSrc: `${placeholder}`,
+      skill: "Training",
+      imgSrc: `${Train_Dev_Logo}`,
     },
     {
       skill: "Express.js",
-      imgSrc: `${placeholder}`,
+      imgSrc: `${Ex_Logo}`,
     },
   ];
 
   const studying = [
     {
       skill: "React",
-      imgSrc: `${placeholder}`,
+      imgSrc: `${React_Logo}`,
     },
     {
       skill: "CSS",
-      imgSrc: `${placeholder}`,
+      imgSrc: `${CSS_Logo}`,
     },
   ];
 
   const toLearn = [
     {
       skill: "Python",
-      imgSrc: `${placeholder}`,
+      imgSrc: `${Python_Logo}`,
     },
   ];
 
